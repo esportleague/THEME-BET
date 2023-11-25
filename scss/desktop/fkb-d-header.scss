@@ -20,9 +20,10 @@
 
 
  
-.d-header {
-    background: linear-gradient(30deg, #ffffff 30%, #FFDAB9);
-}
+// .d-header {
+//     background: linear-gradient(30deg, #ffffff 30%, #FFDAB9);
+  
+// }
         .d-header #site-logo {
                                             height: 17em;
                                             width: 17em;
@@ -32,3 +33,10 @@
                                             height: 17em;
                                            
                                         }
+
+
+.d-header {
+    background: linear-gradient(to left, 
+                                rgba(255, 255, 255, 0.8) 0%, 
+                                rgba(255, 255, 255, 0.2) 100%);
+}
