@@ -5,7 +5,10 @@
   --topic-post-full-width: calc(60px + 1em + var(--topic-body-width) + (var(--topic-body-width-padding) * 2) + (12px * 2) + 83px);
   --posts-filter-width: calc(60px + 1em + var(--topic-body-width) + (var(--topic-body-width-padding) * 2) + (12px * 2) - 2em);
 }
-
+@keyframes background-fade-topiclight {
+  0% { background-color: red; } /* Initial color */
+  100% { background-color: green; } /* Final color */
+}
 // Desktop Topic Mixins
 
 @mixin topic-elements {
