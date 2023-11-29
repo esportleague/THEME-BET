@@ -6,8 +6,11 @@
   --posts-filter-width: calc(60px + 1em + var(--topic-body-width) + (var(--topic-body-width-padding) * 2) + (12px * 2) - 2em);
 }
 @keyframes background-fade-topiclight {
-  0% { background-color: white; } /* Initial color */
-  100% { background-color: #ffdab8; } /* Final color */
+  0% { background-color: #ffdab8; } /* Initial color */
+  100% { background-color: #ffebda; } /* Final color */
+
+
+  
 }
 // Desktop Topic Mixins
 
