@@ -15,3 +15,24 @@
 body {
 background: linear-gradient(57deg, #FFDAB9 30%, #ffffff);
 }
+
+
+.topic-body
+{
+background:none;
+box-shadow: 6px 2px 22px rgba(0,0,0,.2);
+}
+
+.topic-list .main-link
+{
+background:none;
+box-shadow: 12px 22px 22px rgba(0,0,0,.2);
+}
+
+.topic-post article .row { 
+  margin:30em;
+}
+ 
+#topic-title {  
+  margin-left 55em;
+}
