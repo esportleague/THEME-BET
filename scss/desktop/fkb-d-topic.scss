@@ -248,3 +248,18 @@
 .emoji-picker {
   border-radius: var(--d-default-border-radius);
 }
+
+
+//added
+.topic-body
+{
+background:none;
+background: border-box;
+box-shadow: 6px 2px 22px rgba(0,0,0,.2);
+}
+
+.topic-list .main-link
+{
+background:none;
+box-shadow: 12px 22px 22px rgba(0,0,0,.2);
+}
