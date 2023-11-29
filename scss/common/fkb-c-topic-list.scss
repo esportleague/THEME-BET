@@ -1,12 +1,7 @@
 // FKBC - Topic List
 
 // Topic List
-
-.topic-body{
-
-  background:none;
-box-shadow: 12px 22px 22px rgba(0,0,0,.2);
-}
+ 
 
 .topic-list-main-link a.title,
 .topic-list .main-link a.title,
@@ -294,4 +289,18 @@ box-shadow: 12px 22px 22px rgba(0,0,0,.2);
     width: 100%;
     margin: 8px 0;
   }
+}
+
+
+.topic-body
+{
+background:none;
+background: border-box;
+box-shadow: 6px 2px 22px rgba(0,0,0,.2);
+}
+
+.topic-list .main-link
+{
+background:none;
+box-shadow: 12px 22px 22px rgba(0,0,0,.2);
 }
