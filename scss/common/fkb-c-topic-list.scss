@@ -2,6 +2,12 @@
 
 // Topic List
 
+.topic-body{
+
+  background:none;
+box-shadow: 12px 22px 22px rgba(0,0,0,.2);
+}
+
 .topic-list-main-link a.title,
 .topic-list .main-link a.title,
 .latest-topic-list-item .main-link a.title {
