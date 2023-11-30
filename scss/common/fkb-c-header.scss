@@ -254,3 +254,36 @@
     }    
   }
 }
+
+
+
+// EDIT 30.111
+
+.extra-info-wrapper .title-wrapper {
+    display: grid;
+    grid-template-areas:
+        "title title"
+        "categories extra";
+    grid-template-columns: auto minmax(2em, 1fr);
+    align-items: baseline;
+    gap: 0 0.5em;
+    /* background: white; */
+    /* background: linear-gradient(320deg, #ffffff 50%, #FFDAB9); */
+    /* background: linear-gradient(30deg, #ffffff 30%, #FFDAB9); */
+    /* background: linear-gradient(to left, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.2) 100%); */
+    color: black;
+    padding: 1em 1em;
+    opacity: 0.9;
+    /* border: 1px solid black; */
+    border-radius: 27px;
+    margin-bottom: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+    /* filter: invert(1) grayscale(1) contrast(9); */
+    /* color: transparent; */
+    font: 44 2vmin/2em cookie, cursive;
+    text-align: center;
+    /* -webkit-background-clip: text; */
+    background-clip: text;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.8) 0%, rgb(255 218 185 / 20%) 100%);
+}
